@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    max-width: 935px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.home__left {
+    flex: 0.7;
+    padding-right: 28px;
+}
+
+.home__right {
+    flex: 0.3;
+    position: fixed;
+    right: calc((100vw - 935px) / 2);
+}
+
+@media (max-width: 935px) {
+    .home__right {
+        display: none;
+    }
+    
+    .home__left {
+        flex: 1;
+    }
+} 

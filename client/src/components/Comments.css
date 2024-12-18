@@ -1,0 +1,50 @@
+.comments {
+    border-top: 1px solid #dbdbdb;
+    padding: 10px;
+}
+
+.comments__list {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.comment {
+    margin-bottom: 8px;
+}
+
+.comment__username {
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.comment__text {
+    color: #262626;
+}
+
+.comments__form {
+    display: flex;
+    margin-top: 10px;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 10px;
+}
+
+.comments__form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+.comments__form button {
+    border: none;
+    color: #0095f6;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+    padding: 0 8px;
+}
+
+.comments__form button:disabled {
+    color: #b3dbf7;
+    cursor: default;
+} 
